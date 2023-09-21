@@ -1,0 +1,7 @@
+django
+python-dotenv
+djangorestframework
+pillow
+pytest
+pytest-django
+flake8
