@@ -2,6 +2,15 @@ django
 python-dotenv
 djangorestframework
 pillow
+
+# flake8
+django-mptt
+# django-treebeard
+
+### SWAGGER UI
+drf-spectacular
+
+### TESTING
+coverage
 pytest
 pytest-django
-flake8

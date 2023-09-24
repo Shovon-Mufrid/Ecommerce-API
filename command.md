@@ -17,10 +17,17 @@ python3 manage.py shell
 from django.core.management.utils import get_random_secret_key
 print(get_random_secret_key())
 
+<!-- App Creation -->
+python manage.py startapp NAME ./CORE/NAME
 
+<!-- Swagger UI -->
+python manage.py spectacular --file schema.yml
 
+<!-- Coverage -->
+coverage run -m pytest
+coverage html
 
-
+coverage html
 
 
 
